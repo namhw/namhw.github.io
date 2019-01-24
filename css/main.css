@@ -486,7 +486,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   border-radius: .25em;
 }
 .label-info {
-  background-color: #444445E6;
+  background-color: #444;
 }
 
 .label-info[href]:hover,
