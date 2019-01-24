@@ -29,6 +29,7 @@ h4 {margin: 0; font-size: 1.5em; line-height: 1em; margin-bottom: 1em} /* 24px /
 h5 {margin: 0; font-size: 1.3125em; line-height: 1.1428571428571428571428571428571em; margin-bottom: 1.1428571428571428571428571428571em} /* 21px / 24px */
 h6 {margin: 0; font-size: 2.75em; line-height: 1.2em; margin-bottom: 0.4em} /* 18px / 24px */
 h7 {margin: 0; font-size: 0.5em; line-height: 1.3em; margin-bottom: 0.5em} 
+h8 {margin: 0; font-size: 1.0em; line-height: 1.3em; margin-bottom: 0.5em} 
 p, ul, blockquote, pre, td, th, label {margin: 0; font-size: 1em; line-height: 1.5em; margin-bottom: 1.5em} /* 16px / 24px */
 small, p.small {margin: 0; font-size: 0.875em; line-height: 1.7142857142857142857142857142857em; margin-bottom: 1.7142857142857142857142857142857em} /* 14px / 24px */
 
@@ -181,6 +182,10 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   
   display: none;
 }
+#header #helloworld h2{
+  color : #fff;
+}
+
 #header h4{
   margin-bottom:0px; 
 }
@@ -598,6 +603,58 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   -webkit-animation: none;
   background-image: none;
 }
+.resume_years
+{
+    background-color: #2b2b2b;
+    color: #fff;
+    max-width: 100%;
+    overflow-x: auto;
+    vertical-align: middle;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 1px 10px rgba(0,0,0,0.3), 0 1px 0 rgba(255,255,255,0.1), 0 -1px 0 rgba(0,0,0,0.5);
+    -moz-box-shadow: inset 0 1px 10px rgba(0,0,0,0.3),0 1px 0 rgba(255,255,255,0.1),0 -1px 0 rgba(0,0,0,0.5);
+    box-shadow: inset 0 1px 10px rgba(0,0,0,0.3), 0 1px 0 rgba(255,255,255,0.1), 0 -1px 0 rgba(0,0,0,0.5);
+}
+.arrow_bottom
+{
+	display: block;
+	width: 7px;
+	height: 7px;
+	background: url('../images/arrow_bottom.png') no-repeat;
+	margin-bottom: 10px;
+}
+
+.project
+{
+	position: relative;
+    max-width: 900px;
+    margin: 0 auto 30px auto;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 4px;	
+}
+
+.shadow-large {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.08), 0 3px 6px rgba(0,0,0,0.15);
+}
+/*
+ul.experience-list li .resume_years
+{
+	color:#222222;
+	font-weight:bold;
+	background:#FFFFFF;
+	border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-bottom-left-radius: 0;
+	-moz-border-radius-bottomleft: 0;
+	-webkit-border-bottom-left-radius: 0;
+	padding: 2px 5px;
+	/*float:right;
+	color:#88440E;*/
+}*/
 /* Footer */
 footer{
   text-align: center;
